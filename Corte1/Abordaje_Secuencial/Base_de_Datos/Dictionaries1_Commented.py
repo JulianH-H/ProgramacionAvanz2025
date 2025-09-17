@@ -6,7 +6,7 @@
 sensors =  {"living room": 21, "kitchen": 23, "bedroom": 20, "pantry": 22}
 num_cameras = {"backyard": 6,  "garage": 2, "driveway": 1}
 
-#asignamos usando  {"Valor":indice, } para cada item del diccionario
+#asignamos usando  {"llave":valor, } para cada item del diccionario
 
 
 #Para imprimir el diccionario llamamos su nombre:
@@ -53,7 +53,7 @@ print("")
 print("Despues", menu)
 print("")
 
-#Al asignar un indice a un elemento no existentee podemos crear un item
+#Al asignar una llave a un elemento no existente podemos crear un item
 
 #Asi mismo, se debe tener cuidado al asignar diccionarios, si se quiere añadir
 # un nuevo elemento no se utiliza el igual, pue esto causara lo siguiente:
@@ -83,10 +83,10 @@ print(user_ids)
 print("")
 
 
-#Sobreescribir valores
+#Sobreescribir llaves
 #Podemos agregar un item usando la sintaxis 
-#  objeto["string"]=id
-#Con el cual podemos sobreescribir el indice de un item, ejemplo con el menu
+#  objeto["llave"]=valor
+#Con el cual podemos sobreescribir el valor de un item, ejemplo con el menu
 
 print("Antes: ", menu)
 menu["oatmeal"]=5
@@ -122,7 +122,7 @@ heights = [61, 70, 67, 64]
 
 zipEstudiantes= zip(names, heights)
 
-#print("Combinacion Estudiantes", zipEstudiantes)
+    #print("Combinacion Estudiantes", zipEstudiantes)
 #Imprimir esto nos dara la posicion del objeto Zip dentro de la memoria, 
 # para unirlos ello debemos realizar el siguiente for:
 
@@ -151,4 +151,5 @@ print("After: ", plays)
 print("")
 library = {"The Best Songs": plays, "Sunday Feelings": {}}
 print(library)
+
 
