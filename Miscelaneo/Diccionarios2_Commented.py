@@ -73,4 +73,23 @@ if user_ids.get("superStackSmash") == None:
 print(stack_id)
 
 ##  Eliminar llaves
+# Al igual que con las listas, podemos usar la funcion .pop para eliminar items 
+# de un diccionario sabiendo el valor de la llave a eliminar
+ 
 
+raffle = {223842: "Teddy Bear", 872921: "Concert Tickets", 320291: "Gift Basket", 412123: "Necklace", 298787: "Pasta Maker"}
+print(raffle.pop(320291, "No Prize"))
+#Imprime "Gift Basket"
+print(raffle)
+#Imprime {223842: "Teddy Bear", 872921: "Concert Tickets", 412123: "Necklace", 298787: "Pasta Maker"}
+print(raffle.pop(100000, "No Prize"))
+#Imprime "No Prize"
+print(raffle)
+#Imprime {223842: "Teddy Bear", 872921: "Concert Tickets", 412123: "Necklace", 298787: "Pasta Maker"}
+print(raffle.pop(872921, "No Prize"))
+#Imprime "Concert Tickets"
+print(raffle)
+#Imprime {223842: "Teddy Bear", 412123: "Necklace", 298787: "Pasta Maker"}
+
+available_items = {"health potion": 10, "cake of the cure": 5, "green elixir": 20, "strength sandwich": 25, "stamina grains": 15, "power stew": 30}
+health_points = 20
