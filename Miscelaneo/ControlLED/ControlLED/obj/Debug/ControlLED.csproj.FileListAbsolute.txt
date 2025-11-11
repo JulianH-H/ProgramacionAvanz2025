@@ -1,0 +1,11 @@
+C:\Users\Melancholia\source\repos\ControlLED\ControlLED\bin\Debug\ControlLED.exe.config
+C:\Users\Melancholia\source\repos\ControlLED\ControlLED\bin\Debug\ControlLED.exe
+C:\Users\Melancholia\source\repos\ControlLED\ControlLED\bin\Debug\ControlLED.pdb
+C:\Users\Melancholia\source\repos\ControlLED\ControlLED\obj\Debug\ControlLED.csproj.AssemblyReference.cache
+C:\Users\Melancholia\source\repos\ControlLED\ControlLED\obj\Debug\ControlLED.Form1.resources
+C:\Users\Melancholia\source\repos\ControlLED\ControlLED\obj\Debug\ControlLED.Properties.Resources.resources
+C:\Users\Melancholia\source\repos\ControlLED\ControlLED\obj\Debug\ControlLED.csproj.GenerateResource.cache
+C:\Users\Melancholia\source\repos\ControlLED\ControlLED\obj\Debug\ControlLED.csproj.CoreCompileInputs.cache
+C:\Users\Melancholia\source\repos\ControlLED\ControlLED\obj\Debug\ControlLED.exe
+C:\Users\Melancholia\source\repos\ControlLED\ControlLED\obj\Debug\ControlLED.pdb
+C:\Users\Melancholia\source\repos\ControlLED\ControlLED\obj\Debug\ControlLED.exe.config
